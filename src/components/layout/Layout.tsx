@@ -18,7 +18,7 @@ export function Layout({ children }: LayoutProps) {
       <Sidebar isCollapsed={sidebarCollapsed} onToggle={toggleSidebar} />
       <div className="main-wrapper">
         {/* <Header onToggleSidebar={toggleSidebar} /> */}
-        <Header onToggleSidebar={toggleSidebar} />
+        <Header/>
 
         <main className="main-content">
           {children}
